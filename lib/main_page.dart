@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -181,10 +183,10 @@ class _MainPageState extends State<MainPage> {
                     height: 250,
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: Colors.red,
+                      //color: Colors.red,
                       borderRadius: BorderRadius.circular(20),
                       image: DecorationImage(
-                        image: AssetImage('images/ful.jpg'),
+                        image: ExactAssetImage('images/ful.jpg',),
                         fit: BoxFit.cover,
                       ),
                     ),
